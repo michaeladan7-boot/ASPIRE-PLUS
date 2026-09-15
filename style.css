@@ -236,7 +236,7 @@ header {
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.45);
-  z-index: 150;
+  z-index: 90;
 }
 
 .nav-overlay.open {
@@ -548,7 +548,7 @@ service-header
 .service-hero h2 {
   font-size: clamp(32px, 7vw, 100px);
   max-width: 90%;
-  color: rgba(64, 221, 21, 0.953);
+  /* color: rgba(64, 221, 21, 0.953); */
   line-height: 1.1;
   margin-top: 0.5rem;
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
@@ -661,10 +661,10 @@ service-header
   align-items: center;
 }
 
-.contain{
+.contain {
   text-align: left;
   padding: 0 40px;
-   background: rgba(22, 36, 26, 0.55);
+  background: rgba(22, 36, 26, 0.55);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(10px);
   /* border: 1px solid rgba(255, 255, 255, 0.15); */
@@ -676,26 +676,26 @@ service-header
   height: 100%;
 }
 
-.contain h1{
+.contain h1 {
   font-size: clamp(24px, 4.5vw, 48px);
   margin-bottom: 1rem;
   color: #fff;
   line-height: 1.1;
 }
 
-.contain h2{
+.contain h2 {
   font-size: clamp(16px, 2vw, 22px);
   margin-bottom: 1rem;
   color: #fff;
 }
 
-.contain p{
+.contain p {
   color: #fff;
   font-size: clamp(14px, 1vw, 16px);
   margin-bottom: 1rem;
 }
 
-.contain button{
+.contain button {
   width: 150px;
   height: 40px;
   display: flex;
@@ -1109,6 +1109,7 @@ service-header
 @media (max-width: 900px) {
   .hero {
     background-attachment: scroll;
+    padding-top: 6.5rem;
   }
 
   .nav {
