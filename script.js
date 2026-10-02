@@ -157,4 +157,31 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  /* ---------- 6. Podcast playlist (data-driven track list) ----------
+     Add a new episode by adding one object to this array — the
+     markup for each track row is generated from it, so nothing on
+     the page needs to be hand-duplicated when the playlist grows. */
+  const playlistTracks = [
+    { title: 'Episode 12 — Building High-Performing Teams from Day One', src: '' },
+    { title: 'Episode 11 — The Real Cost of a Bad Hire', src: '' },
+    { title: 'Episode 10 — Coaching Managers Who Avoid Conflict', src: '' },
+    { title: 'Episode 09 — What Fresh Graduates Wish They Knew', src: '' },
+    { title: 'Episode 08 — Pay Structures That Retain Talent', src: '' },
+    { title: 'Episode 07 — Onboarding Without the Overwhelm', src: '' },
+  ];
+
+  const playlistContainer = document.getElementById('playlist-cards');
+
+  if (playlistContainer) {
+    playlistContainer.innerHTML = playlistTracks.map((track, index) => `
+      <div class="track-card">
+        <span class="track-num">${String(index + 1).padStart(2, '0')}</span>
+        <div class="track-info">
+          <h4>${track.title}</h4>
+          <audio controls${track.src ? ` src="${track.src}"` : ''}></audio>
+        </div>
+      </div>
+    `).join('');
+  }
+
 });
