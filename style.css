@@ -1644,28 +1644,28 @@ service-header
 }
 
 .grid-container .grid-card:nth-child(1) {
-  background-image: var(--card-scrim), url(images/11396100_4747574.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.37),rgba(0, 0, 0, 0.384)),  url(images/11396100_4747574.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .grid-container .grid-card:nth-child(2) {
-  background-image: var(--card-scrim), url(images/11523058_4780825.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.37),rgba(0, 0, 0, 0.384)), url(images/11523058_4780825.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .grid-container .grid-card:nth-child(3) {
-  background-image: var(--card-scrim), url(images/11637321_4778821.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.37),rgba(0, 0, 0, 0.384)), url(images/11637321_4778821.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .grid-container .grid-card:nth-child(4) {
-  background-image: var(--card-scrim), url(images/13740828_2010.i605.022..influencer\ marketing\ set-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.37),rgba(0, 0, 0, 0.384)), url(images/13740828_2010.i605.022..influencer\ marketing\ set-03.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
