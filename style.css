@@ -803,7 +803,7 @@ service-header
 
 .contain h2 {
   font-size: clamp(32px, 6vw, 73px);
-  max-width: 70%;
+  max-width: 100%;
   color: rgba(255, 255, 255, 0.953);
   line-height: 1;
   margin-top: 0.5rem;
@@ -820,6 +820,7 @@ service-header
   margin: 0.5rem auto 1rem;
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
   font-weight: 500;
+  text-align: center;
 }
 
 .contain p {
@@ -1482,7 +1483,7 @@ service-header
   min-height: calc(100svh - 72px);
   min-height: calc(100dvh - 72px);
   overflow: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.26),rgba(0, 0, 0, 0.281)), url(images/medium-shot-people-talking-radio\ \(1\).jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.37),rgba(0, 0, 0, 0.384)), url(images/medium-shot-people-talking-radio\ \(1\).jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment:scroll;
